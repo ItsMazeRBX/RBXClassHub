@@ -1,0 +1,402 @@
+/* =========================
+   RESET
+========================= */
+
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+    margin:0;
+    padding:40px 20px;
+
+    font-family:
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+    background:#0d1117;
+    color:#e6edf3;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+
+header{
+
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+
+header h1{
+
+    font-size:42px;
+    margin-bottom:10px;
+
+    color:#58a6ff;
+
+}
+
+
+header p{
+
+    color:#8b949e;
+    font-size:18px;
+
+}
+
+
+
+/* =========================
+   PESQUISA
+========================= */
+
+
+#search{
+
+    display:block;
+
+    width:100%;
+    max-width:700px;
+
+    margin:0 auto 35px;
+
+    padding:16px 20px;
+
+    border-radius:14px;
+
+    border:1px solid #30363d;
+
+    background:#161b22;
+
+    color:white;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.2s;
+
+}
+
+
+#search:focus{
+
+    border-color:#58a6ff;
+
+    box-shadow:
+    0 0 0 3px rgba(88,166,255,.2);
+
+}
+
+
+
+/* =========================
+   GRID DE CARDS
+========================= */
+
+
+#classes{
+    list-style:none;
+    padding:0;
+    margin:auto;
+
+    max-width:1200px;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:35px;
+}
+
+
+
+/* =========================
+   CARD
+========================= */
+
+
+.class-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+    min-height:240px;
+
+    padding:24px;
+
+    background:
+    linear-gradient(
+    145deg,
+    #161b22,
+    #21262d
+    );
+
+    border:1px solid #30363d;
+
+    border-radius:18px;
+
+    text-decoration:none;
+
+    color:white;
+
+    transition:.25s;
+}
+
+
+
+/* efeito ao passar mouse */
+
+.class-card:hover{
+
+
+    transform:
+
+    translateY(-6px);
+
+
+    border-color:#58a6ff;
+
+
+    box-shadow:
+
+    0 15px 30px
+    rgba(0,0,0,.35);
+
+
+}
+
+
+
+/* =========================
+   IMAGEM
+========================= */
+
+
+.class-image{
+
+
+    width:70px;
+
+    height:70px;
+
+
+    border-radius:14px;
+
+
+    background:#0d1117;
+
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+
+    font-size:32px;
+
+
+}
+
+
+
+/* =========================
+   TEXTO
+========================= */
+
+
+.number{
+
+    font-size:13px;
+
+    color:#8b949e;
+
+}
+
+
+
+.name{
+
+    font-size:22px;
+
+    font-weight:700;
+
+    color:#58a6ff;
+
+}
+
+
+
+.description{
+
+    color:#c9d1d9;
+
+    font-size:14px;
+
+    line-height:1.4;
+
+}
+
+
+
+/* =========================
+   DIFICULDADE
+========================= */
+
+
+.difficulty{
+
+
+    margin-top:auto;
+
+
+    font-size:14px;
+
+
+    color:#8b949e;
+
+
+}
+
+
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+
+@media(max-width:600px){
+
+    body{
+
+        padding:20px 12px;
+
+    }
+
+
+    header h1{
+
+        font-size:30px;
+
+    }
+
+
+    #classes{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+/* =========================
+   FILTROS
+========================= */
+
+
+.filters{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin:0 auto 40px;
+
+    max-width:700px;
+
+}
+
+
+
+.filters select{
+
+    flex:1;
+
+    padding:14px 18px;
+
+
+    background:#161b22;
+
+    color:#e6edf3;
+
+
+    border:1px solid #30363d;
+
+    border-radius:14px;
+
+
+    font-size:15px;
+
+
+    cursor:pointer;
+
+
+    outline:none;
+
+
+    transition:.2s;
+
+}
+
+
+
+.filters select:hover{
+
+    border-color:#58a6ff;
+
+}
+
+
+
+.filters select:focus{
+
+    border-color:#58a6ff;
+
+
+    box-shadow:
+
+    0 0 0 3px rgba(88,166,255,.2);
+
+}
+
+
+
+/* =========================
+   RESPONSIVO FILTROS
+========================= */
+
+
+@media(max-width:600px){
+
+
+    .filters{
+
+        flex-direction:column;
+
+    }
+
+
+    .filters select{
+
+        width:100%;
+
+    }
+
+
+}
