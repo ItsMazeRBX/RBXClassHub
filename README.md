@@ -12,4 +12,8 @@ html e decidi melhora-lo.
 então carinha caso esteja vendo isso saiba que agradeço o html e como eu não
 saiba se tinha perfil no git eu decidi só publicar como autoral.
 
-tenho um bom aproveito!
+tenha um bom aproveito!
+
+link:
+Axoria Works : https://discord.gg/Uc9vRzaBBn
+youtube : https://www.youtube.com/@ItsMazeRBX
