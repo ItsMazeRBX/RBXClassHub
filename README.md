@@ -15,5 +15,5 @@ saiba se tinha perfil no git eu decidi só publicar como autoral.
 tenha um bom aproveito!
 
 link:
-Axoria Works : https://discord.gg/Uc9vRzaBBn
+[Axoria Works | https://discord.gg/Uc9vRzaBBn]
 youtube : https://www.youtube.com/@ItsMazeRBX
